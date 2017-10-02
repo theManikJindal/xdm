@@ -6,9 +6,10 @@
   "definitions": {
     "asset": {
       "properties": {
-        "asset_id": {
+        "@id": {
           "type": "string",
-          "description": "A unique identifier given to every addressable asset in a given repository."
+          "format": "uri",
+          "description": "The unique identifier given to every addressable asset in a given repository."
         },
         "document_id": {
           "type": "string",
@@ -374,7 +375,7 @@
     {"$ref": "#/definitions/asset"}    
   ],
   "required": [
-    "asset_id",
+    "@id",
     "create_date",
     "repository_created_date",
     "repository_created_by",
