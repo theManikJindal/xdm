@@ -1,5 +1,5 @@
 {
-  "@id": "https://content.adobe.io/example_com/example_repo/test.m4v",
+  "@id": "https://content.adobe.io/example_com/example_repo/titanic.m4v",
   "create_date": "2017-09-26T15:52:25+00:00",
   "repository_created_date": "2017-09-26T15:52:25+00:00",
   "repository_created_by": "lars",
@@ -9,5 +9,10 @@
   "version_id": "15",
   "size": 1632418,
   "path": "here",
-  "etag": "15"
+  "etag": "15",
+  "image_length": 2160,
+  "image_width": 3840,
+  "aspect_ratio": 1.77777777778,
+  "extent": 1.17e+7,
+  "video_frame_rate": "NTSC"
 }
