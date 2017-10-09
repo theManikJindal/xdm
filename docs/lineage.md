@@ -6,9 +6,9 @@ To achieve this, XDM introduces a new keyword “derivedFrom”, which contains 
 
 When a model signals that it is a derived model, the model MUST be compatible with the parent model, where compatibility is defined as in XDM Compatibility.  Specifically, a derived model MUST NOT use the “not” keyword to invalidate any portion of the parent model.
 
-When a reader observes that a model is a derived model, the reader MAY assume that the model is compatible with the parent model, where compatibility is defined as in XDM Compatibility.
+When a reader observes that a model is a derived model, the reader MAY assume that the model is compatible with the parent model, where compatibility is defined as in Model Compatibility.
 
-Details on the XDML syntax for inheritance can be found in ????.
+Details on the XDM syntax for model lineage can be found in ????.
 
 # Model Compatibility
 
