@@ -4,7 +4,7 @@ A common usage of XDM is to create datasets and data objects that are derived fr
 
 To achieve this, XDM introduces a new keyword “derivedFrom”, which contains a reference to a parent model.  When present in the JSON Schema root, this signals that a model is derived from the parent and contains all of the properties defined by the parent.
 
-When a model signals that it is a derived model, the model MUST be compatible with the parent model, where compatibility is defined as in XDM Compatibility.  Specifically, a derived model MUST NOT use the “not” keyword to invalidate any portion of the parent model.
+When a model signals that it is a derived model, the model MUST be compatible with the parent model, where compatibility is defined as in Model Compatibility.  Specifically, a derived model MUST NOT use the “not” keyword to invalidate any portion of the parent model.
 
 When a reader observes that a model is a derived model, the reader MAY assume that the model is compatible with the parent model, where compatibility is defined as in Model Compatibility.
 
