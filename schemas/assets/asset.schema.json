@@ -397,6 +397,7 @@
     {"$ref": "#/definitions/asset"}    
   ],
   "required": [
+    "asset_id",
     "@id",
     "create_date",
     "repository_created_date",
