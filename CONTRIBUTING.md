@@ -96,7 +96,7 @@ Avoid non-semantic limits – don’t put current resource limits in the data mo
 
 * file names for schema files should be lower case and end with `.schema.json`
 * include an `"$id"` with a value like `"https://ns.adobe.com/xdm/assets/image"` in the schema
-* use `@id` to identify objects using an URI instead of non-resolvable `*_id` properties (see also [Building JSON-LD APIs: Best Practices; Best Practice 8: Identify objects with a unique identifier](https://json-ld.org/spec/latest/json-ld-api-best-practices/#use-ids))
+* use `@id` to identify objects using an URI instead of using only non-resolvable `*_id` properties (see also [Building JSON-LD APIs: Best Practices; Best Practice 8: Identify objects with a unique identifier](https://json-ld.org/spec/latest/json-ld-api-best-practices/#use-ids))
 * don't nest schemas too deeply. Break inline type definitions into separate `*.schema.json` files if they have properties with object types themselves.
 
 ## Writing Styleguides
